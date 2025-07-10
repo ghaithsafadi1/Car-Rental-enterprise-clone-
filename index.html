@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/enterprise.css" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="Logo" />
+        </a>
+        <nav>
+          <i class="fas fa-bars toggle-menu"></i>
+          <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="form">
+            <i class="fas fa-search"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Start Landing -->
+    <div class="landing">
+      <div class="overlay"></div>
+      <div class="text">
+        <div class="content">
+          <h2>
+            Hello World!<br />
+            We Are enterprise We rent cars.
+          </h2>
+          <p>
+            Enterprise Rent-A-Car provides more than just traditional car
+            rental. We're your global transportation solution.
+          </p>
+        </div>
+      </div>
+      <i class="fas fa-angle-left change-background fa-2x"></i>
+      <i class="fas fa-angle-right change-background fa-2x"></i>
+      <ul class="bullets">
+        <li></li>
+        <li class="active"></li>
+        <li></li>
+      </ul>
+    </div>
+    <!-- End Landing -->
+    <!-- Start Services -->
+    <div id="services" class="services">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Services</h2>
+          <p>
+            Whether you need a vehicle for an hour, a day, or longer, we have
+            you covered. Enterprise is the one place to go for every place life
+            takes you.
+          </p>
+        </div>
+        <div class="services-container">
+          <div class="srv-box">
+            <i class="far fa-handshake fa-3x"></i>
+            <div class="text">
+              <h3>Current Deals</h3>
+              <p>
+                Explore our current deals and promotions below, or start a
+                reservation to find the right vehicle at our everyday low rates.
+              </p>
+            </div>
+          </div>
+          <div class="srv-box">
+            <i class="fa fa-wrench fa-3x"></i>
+            <div class="text">
+              <h3>Run After an Accident</h3>
+              <p>
+                When your vehicle has been damaged, we help make the process of
+                renting a vehicle as easy as possible—from partnering with an
+                extensive network of body shops and insurance providers to
+                offering special rates.
+              </p>
+            </div>
+          </div>
+          <div class="srv-box">
+            <i class="fas fa-envelope fa-3x"></i>
+            <div class="text">
+              <h3>Your Kind of Travel Planning</h3>
+              <p>
+                Get the latest benefits, updates, and great rates delivered
+                directly to your inbox
+              </p>
+            </div>
+          </div>
+          <div class="srv-box">
+            <i class="fas fa-medal fa-3x"></i>
+            <div class="text">
+              <h3>Plus your Points</h3>
+              <p>
+                Make getaways with Enterprise® even more rewarding with the Plus
+                Your Points promotion – now with over 20 ways to earn bonus
+                points including Spin to Win.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Design -->
+    <div class="design">
+      <div class="text">
+        <h2>Our Cars Comes With...</h2>
+        <ul>
+          <li>Insurance for Damages and Accidents</li>
+          <li>Child Seats</li>
+          <li>GPS Navigation systems</li>
+          <li>Wi-Fi Hotspot</li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Design -->
+    <!-- Start Portfolio -->
+    <div class="portfolio">
+      <div class="container">
+        <div class="main-heading">
+          <h2 id="pricing">Buy a Car</h2>
+          <p>
+            Looking to buy a car? We have thousands of 1-3 year-old vehicles in
+            a variety of makes and models, many equipped with a wide selection
+            of popular technology and features.
+          </p>
+        </div>
+        <ul class="shuffle">
+          <li class="active" data-cat=".all">All Cars</li>
+          <li data-cat=".suv">SUV</li>
+          <li data-cat=".sport">Sport</li>
+          <li data-cat=".lux">Luxury</li>
+        </ul>
+      </div>
+      <div class="imgs-container">
+        <div class="box">
+          <img decoding="async" class="all suv" src="images/car1.avif" alt="" />
+          <div class="caption">
+            <h4>Nissan Versa</h4>
+            <p>6000$</p>
+          </div>
+        </div>
+        <div class="box">
+          <img decoding="async" class="all lux" src="images/car2.avif" alt="" />
+          <div class="caption">
+            <h4>Audi A5 Sportback</h4>
+            <p>10000$</p>
+          </div>
+        </div>
+        <div class="box">
+          <img decoding="async" class="all lux" src="images/car3.avif" alt="" />
+          <div class="caption">
+            <h4>BMW 4 Series</h4>
+            <p>33000$</p>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            decoding="async"
+            class="all sport"
+            src="images/car4.avif"
+            alt=""
+          />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            decoding="async"
+            class="all sport"
+            src="images/car5.avif"
+            alt=""
+          />
+          <div class="caption">
+            <h4>Dodge Challenger</h4>
+            <p>12000$</p>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            decoding="async"
+            class="all sport"
+            src="images/car6.avif"
+            alt=""
+          />
+          <div class="caption">
+            <h4>Ford Mustang Convertible</h4>
+            <p>15000$</p>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            style="width: 350px"
+            decoding="async"
+            class="all suv"
+            src="images/car7.avif"
+            alt=""
+          />
+          <div class="caption">
+            <h4>Dodge Durango</h4>
+            <p>22000$</p>
+          </div>
+        </div>
+        <div class="box">
+          <img decoding="async" class="all suv" src="images/car8.avif" alt="" />
+          <div class="caption">
+            <h4>Range Rover Velar</h4>
+            <p>30000$</p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="more">More</a>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start Video -->
+    <div class="video">
+      <video autoplay muted loop>
+        <source src="images/5309381-hd_1920_1080_25fps.mp4" type="video/mp4" />
+      </video>
+      <div class="text">
+        <h2>Super Awesome Video Here</h2>
+        <p>Its All You Need</p>
+        <button>See More</button>
+      </div>
+    </div>
+    <!-- End Video -->
+    <!-- Start About -->
+    <div id="about" class="about">
+      <div class="container">
+        <div class="main-heading">
+          <h2>About Us</h2>
+          <p>
+            Enterprise Rent-A-Car is an ongoing American success story. Our
+            guiding principles, and humble beginning, revolve around personal
+            honesty and integrity. We believe in strengthening our communities
+            one neighborhood at a time, serving our customers as if they were
+            our family, and rewarding hard work. These things are as true today
+            as they were when we were founded in 1957.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Stats -->
+    <div class="stats">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <div class="number">1.236</div>
+          <p>Cars Sold</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-trophy"></i>
+          <div class="number">17</div>
+          <p>Awards Received</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-medal"></i>
+          <div class="number">1</div>
+          <p>First company in Europe</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Stats -->
+    <!-- Start Contact -->
+    <div id="contact" class="contact">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Contact Us</h2>
+          <p>Chat with us Everyday between 8:00 AM to 9:00 PM</p>
+        </div>
+        <div class="content">
+          <form action="">
+            <input
+              class="main-input"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+            />
+            <input
+              class="main-input"
+              type="email"
+              name="mail"
+              placeholder="Your Email"
+            />
+            <textarea
+              class="main-input"
+              name="message"
+              placeholder="Your Message"
+            ></textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+          <div class="info">
+            <h4>Get In Touch</h4>
+            <span class="phone">+00 123.456.789</span>
+            <span class="phone">+00 123.456.789</span>
+            <h4>Where We Are</h4>
+            <address>
+              Awesome Address 17<br />New York, NYC<br />123-4567-890<br />USA
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <img src="images/logo.png" alt="Logo" />
+        <p>We Are Social</p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fas fa-home"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <p class="copyright">
+          &copy; 2025 <span>Enterprise</span> All Right Reserved
+        </p>
+      </div>
+    </div>
+    <!-- End Footer -->
+  </body>
+</html>
